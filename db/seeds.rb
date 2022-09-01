@@ -5,3 +5,20 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+User.create!(
+	email: "admin@example.com",
+	password: "password",
+	password_confirmation: "password",
+	admin: true
+)
+
+
+25.times do |i|
+	Product.create!(
+		name: "Pizza",
+		description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quidem non enim minima magnam possimus tempora maiores eum voluptate numquam quasi provident facere ab nobis, omnis excepturi accusamus, beatae dicta.",
+		price: 11.99,
+		caterring_item: true
+	)
+end
