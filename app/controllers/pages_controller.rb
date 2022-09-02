@@ -4,7 +4,7 @@ class PagesController < ApplicationController
   end
 
   def cataring
-    @page = 'cataring'
+    @page = 'catering'
   end
 
   def info
