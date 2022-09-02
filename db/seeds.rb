@@ -19,6 +19,6 @@ User.create!(
 		name: "Pizza",
 		description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quidem non enim minima magnam possimus tempora maiores eum voluptate numquam quasi provident facere ab nobis, omnis excepturi accusamus, beatae dicta.",
 		price: 11.99,
-		caterring_item: true
+		catering: true
 	)
 end
